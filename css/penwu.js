@@ -106,10 +106,14 @@ window.onload = function(){
 		var jrgwc = document.getElementById('jrgwc');
 		var beijing2 = document.getElementsByClassName('beijing2');
 		var jxgw = document.getElementById('jxgw');
+		var guanbi = document.getElementById('guanbi');
 		jrgwc.onclick = function(){
 			beijing2[0].style.display = 'block';
 		}
 		jxgw.onclick = function(){
+			beijing2[0].style.display = 'none';
+		}
+		guanbi.onclick =function(){
 			beijing2[0].style.display = 'none';
 		}
 	}
