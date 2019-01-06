@@ -59,9 +59,17 @@ window.onload = function(){
 		var jiml = document.getElementById('jiml');
 		xiaoml.onclick = function(){
 			jiml.innerHTML = '"'+'150ml'+'"';
+			daml.style.background = 'none';
+			xiaoml.style.background = 'url(./img/duigou.png) no-repeat bottom right';
+			xiaoml.style.border ='1px solid #fe0d4a';
+			daml.style.border ='none';	
 		}
 		daml.onclick = function(){
 			jiml.innerHTML = '"'+'200ml'+'"';
+			xiaoml.style.background = 'none';
+			daml.style.background = 'url(./img/duigou.png) no-repeat bottom right';
+			daml.style.border = '1px solid #fe0d4a';
+			xiaoml.style.border ='none';	
 		}
 
 		var sp0 = document.getElementById('sp0');
